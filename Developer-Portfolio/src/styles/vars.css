@@ -1,0 +1,34 @@
+:root {
+    --bg: #ffffff;
+    --fg: #0b1220;
+    --muted: #5b6b7a;
+    --accent: #0ea5a4;
+    --header-bg: rgba(255,255,255,0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #071025;
+        --fg: #e6eef6;
+        --muted: #9fb6cf;
+        --accent: #2dd4bf;
+        --header-bg: rgba(7,16,37,0.6);
+    }
+}
+
+/* overrides system when user sets [data-them='dark'] on <html> */
+html[data-theme='dark'] {
+    --bg: #071025;
+    --fg: #e6eef6;
+    --muted: #9fb6cf;
+    --accent: #2dd4bf;
+    --header-bg: rgba(7,16,37,0.6);
+}
+
+html[data-theme='light'] {
+    --bg: #ffffff;
+    --fg: #0b1220;
+    --muted: #5b6b7a;
+    --accent: #0ea5a4;
+    --header-bg: rgba(255,255,255,0.6);
+}

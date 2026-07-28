@@ -1,0 +1,12 @@
+.app {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--fg);
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
