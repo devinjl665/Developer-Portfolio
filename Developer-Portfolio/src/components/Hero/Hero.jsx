@@ -1,0 +1,19 @@
+import React from 'react';
+import styles from './Hero.module.css';
+
+export default function Hero() {
+    return (
+        <section className={styles.hero}>
+            <div>
+                <h1 className={styles.title}>Hey, I'm Devin</h1>
+                <p className={styles.lead}>
+
+                </p>
+                <div className={styles.actions}>
+                    <a className={styles.primary} href="#projects">View projects</a>
+                    <a href='/resume.pdf' target='_blank' rel='noreferrer'>Resume</a>
+                </div>
+            </div>
+        </section>
+    );
+}
