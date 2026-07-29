@@ -6,7 +6,7 @@ export default function Hero() {
             <div>
                 <h1 className={styles.title}>Hey, I'm Devin</h1>
                 <p className={styles.lead}>
-
+                    I'm a self-driven, full-stack developer who easily adapts to varying situations and tasks.
                 </p>
                 <div className={styles.actions}>
                     <a className={styles.primary} href="#projects">View projects</a>

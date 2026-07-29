@@ -1,0 +1,24 @@
+.container {padding: 2rem 1rem;}
+.inner {max-width: 900px; margin: 0 auto;}
+.title {font-size: 1.25rem; margin-bottom: 1rem;}
+.grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+} 
+
+.card {
+    background: rgba(0,0,0,0.03);
+    padding: 0.75rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name { font-weight: 600; color: var(--fg);}
+.level { color: var(--muted); font-size: 0.9rem;}
+@media (prefers-color-scheme: dark) {
+    .card {background: rgba(255, 255, 255, 0.03);}
+}
