@@ -4,4 +4,7 @@
     padding: 0.35rem 0.6rem;
     border-radius: 6px;
     cursor: pointer;
+    transition: transform 160ms var(--anim-ease), background 160ms var(--anim-ease);
 }
+
+.btn:active {transform: scale(0.98);}

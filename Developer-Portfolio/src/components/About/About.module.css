@@ -18,3 +18,10 @@
     margin-bottom: 0.75;
     line-height: 1.6;
 }
+
+.container {
+    padding: 2rem 1rem;
+    background: linear-gradient(180deg, rgba(0,0,0,0.02), transparent);
+    animation: fadeUp var(--anim-duration) var(--anim-ease) both;
+    animation-delay: 140ms;
+}

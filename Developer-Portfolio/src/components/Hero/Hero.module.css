@@ -3,6 +3,8 @@
     align-items: center;
     min-height: 60vh;
     padding: 2rem 1rem;
+    animation: fadeUp var(--anim-duration) var(--anime-ease) both;
+    animation-delay: 80ms;
 }
 
 .title {
@@ -12,9 +14,17 @@
 
 .lead {color: var(--muted); margin-bottom: 1rem; max-width: 60ch;}
 .actions {display: flex; gap: 1rem; align-items: center;}
+
 .primary {
     background: var(--accent);
     color: white;
     padding: 0.6rem 1rem;
     border-radius: 8px;
+    transform: transform 220ms var(--anim-ease), box-shadow 220ms var(--anim-ease);
+}
+
+.primary:hover,
+.primary:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(2,6,23,0.12);
 }

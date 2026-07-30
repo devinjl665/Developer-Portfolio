@@ -1,5 +1,5 @@
 .container {padding: 2rem 1rem;}
-.inner {max-width: 900px; margin: 0 auto;}
+.inner {max-width: 900px; margin: 0 auto; animation: fadeUp var(--anim-duration);}
 .title {font-size: 1.25rem; margin-bottom: 1rem;}
 .grid {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    transition: transform 220ms var(--anim-ease), box-shadow 220ms var(--anim-ease);
 }
 
 .name { font-weight: 600; color: var(--fg);}
