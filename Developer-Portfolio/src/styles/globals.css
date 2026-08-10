@@ -23,8 +23,3 @@ button {font: inherit;}
     --anim-duration: 420ms;
     --anim-ease: cubic-bezier(.2,.9,.2,1);
 }
-
-/* respects user preference: reduced motion */
-@media (prefers-reduced-motion: reduce) {
-    * {animation-duration: 0ms !important; animation-delay: 0ms !important; transition-duration: 0ms !important;}
-}
