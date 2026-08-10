@@ -1,7 +1,18 @@
 .container {padding: 2rem 1rem;}
-.inner {max-width: 900px; margin: 0 auto; animation: fadeUp var(--anim-duration);}
-.title {font-size: 1.25rem; margin-bottom: 1rem;}
+
+.inner {
+    max-width: 900px; 
+    margin: 0 auto; 
+    animation: fadeUp var(--anim-duration);
+}
+
+.title {
+    font-size: 1.25rem; 
+    margin-bottom: 1rem;
+}
+
 .grid {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 1rem;
     list-style: none;
@@ -18,8 +29,21 @@
     transition: transform 220ms var(--anim-ease), box-shadow 220ms var(--anim-ease);
 }
 
-.name { font-weight: 600; color: var(--fg);}
-.level { color: var(--muted); font-size: 0.9rem;}
+.name { font-weight: 600; 
+    color: var(--fg);
+}
+
+.level { 
+    color: var(--muted); 
+    font-size: 0.9rem;
+}
+
+.icon {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
 @media (prefers-color-scheme: dark) {
     .card {background: rgba(255, 255, 255, 0.03);}
 }

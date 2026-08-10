@@ -4,8 +4,8 @@ const projects = [
         id: 'p1',
         title: 'p1',
         tech: [],
-        summary: '',
-        description: '',
+        summary: 'this is a project',
+        description: 'this is a project',
         repo: '',
         live: '',
         image: 'favicon.svg'
@@ -15,8 +15,8 @@ const projects = [
         id: 'p2',
         title: 'p2',
         tech: [],
-        summary: '',
-        description: '',
+        summary: 'this is a project',
+        description: 'this is a project',
         repo: '',
         live: '',
         image: 'favicon.svg'
@@ -26,8 +26,8 @@ const projects = [
         id: 'p3',
         title: 'p3',
         tech: [],
-        summary: '',
-        description: '',
+        summary: 'this is a project',
+        description: 'this is a project',
         repo: '',
         live: '',
         image: 'favicon.svg'
