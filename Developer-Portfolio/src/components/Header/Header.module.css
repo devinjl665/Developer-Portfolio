@@ -21,3 +21,7 @@
 .nav { display: flex; gap: 1rem; align-items: center;}
 .nav a {color: var(--muted); padding: 0.25rem 0.5rem; transition: color 160ms var(--anim-ease), transform 160ms var(--anim-ease);}
 .nav a:hover {color: var(--fg); transform: translateY(-2px);}
+
+img {
+    border-radius: 15px;
+}

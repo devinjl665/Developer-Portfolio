@@ -83,7 +83,7 @@ export default function Contact() {
 
                 <div className={styles.actions}>
                     <button type='submit' className={styles.submit} disabled={isBusy} aria-disabled={isBusy}>
-                        {isBusy ? 'Sending...' : 'Send message'}
+                        {isBusy ? 'Sending...' : 'Submit'}
                     </button>
                     <div className={styles.status} aria-live='polite'>
                         {status.message}
