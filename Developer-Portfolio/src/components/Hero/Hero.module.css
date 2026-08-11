@@ -10,6 +10,12 @@
 .title {
     font-size: clamp(1.8rem, 4vw, 2.6rem);
     margin-bottom: 0.5rem;
+    display: inline-block;
+    border-right: 3px solid var(--accent);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 1.5s steps(40, end) forwards;
 }
 
 .lead {color: var(--muted); margin-bottom: 1rem; max-width: 60ch;}
@@ -27,4 +33,20 @@
 .primary:focus {
     transform: translateY(-4px);
     box-shadow: 0 8px 18px rgba(2,6,23,0.12);
+}
+
+
+@keyframes typing {
+  0% { 
+    width: 0;
+    border-right-color: var(--accent);
+  }
+  99% { 
+    width: 12ch;
+    border-right-color: var(--accent);
+  }
+  100% { 
+    width: 12ch;
+    border-right-color: transparent;
+  }
 }

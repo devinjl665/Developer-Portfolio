@@ -19,6 +19,23 @@ button {font: inherit;}
     to {opacity: 1; transform: translateY(0);}
 }
 
+@keyframes typing {
+  0% { 
+    width: 0;
+    border-right-color: var(--accent);
+  }
+  99% { 
+    width: 20ch;
+    border-right-color: var(--accent);
+  }
+  100% { 
+    width: 20ch;
+    border-right-color: transparent;
+  }
+}
+
+
+
 :root {
     --anim-duration: 420ms;
     --anim-ease: cubic-bezier(.2,.9,.2,1);

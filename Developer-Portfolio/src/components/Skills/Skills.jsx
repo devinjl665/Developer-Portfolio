@@ -1,9 +1,10 @@
-import {FaReact, FaJs, FaCss3Alt, FaPython, FaNode, FaGithub} from 'react-icons/fa';
+import {FaReact, FaJs, FaCss3Alt, FaPython, FaNode, FaGithub, FaHtml5 } from 'react-icons/fa';
 import {SiMongodb, SiPostgresql, SiVite} from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import styles from './Skills.module.css';
 
 const skills = [
+    { name: 'HTML', icon: FaHtml5},
     { name: 'JavaScript', icon: FaJs},
     { name: 'CSS', icon: FaCss3Alt},
     { name: 'React', icon: FaReact},
